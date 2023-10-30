@@ -1,4 +1,47 @@
-theme: minima
-title: test 1
-author: Pasindu Pramuditha
-description : This  is my first website created using github
+# Site settings
+title: My Beautiful Website
+description: A stunning webpage created with love.
+
+# URL settings
+url: https://www.example.com
+baseurl: "" # Leave this empty unless your site is hosted in a subdirectory
+
+# Build settings
+markdown: kramdown
+theme: minima # Specify your Jekyll or Hugo theme here
+
+# Navigation
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Blog
+    url: /blog
+
+# Social media links
+social:
+  - title: Twitter
+    url: https://twitter.com/your-twitter
+  - title: GitHub
+    url: https://github.com/your-github
+
+# Plugins (if using Jekyll)
+plugins:
+  - jekyll-feed # Example plugin, you can add more as needed
+
+# Permalinks (if using Jekyll)
+permalink: /:year/:month/:day/:title/
+
+# Author information
+author:
+  name: Your Name
+  bio: Web Developer and Designer
+  email: your@email.com
+  twitter: your-twitter
+  github: your-github
+
+# Pagination (if your site has multiple pages)
+paginate: 5 # Number of posts per page
+
+# Additional custom settings as needed
